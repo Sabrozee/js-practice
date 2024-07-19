@@ -1,10 +1,10 @@
 const accountId = 1234;
 let accountEmail = "sawan.shiv50@gmail.com";
 var accountPassword = "1234";
-accountCity = "Roorkee";
+accountCity = "Roorkee";  
 let accountState;  // undefined
 
-// accountId = 2; // not allowed
+// accountId = 2; // not allowed because the variable is constant (const).
 
 console.log(accountId);
 
