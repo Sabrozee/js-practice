@@ -35,3 +35,29 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+// +++++++++++++++++++ Memory ++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myName = "sawan";
+
+let anotherName = myName; // Copy
+anotherName = "sabrozee";
+
+console.log(myName); 
+console.log(anotherName);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ylm"
+};
+
+let userTwo = userOne; // Original or Refrence
+
+userTwo.email = "sawan@google.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
